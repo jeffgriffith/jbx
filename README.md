@@ -1,7 +1,8 @@
 # jbx
+## Overview
+A library to improve Java readability by moving many common actions into static functions. They are named so that readability is preserved even when included statically.
 
-A library to improve Java readability by moving many common actions into static functions. For example:
-
+## Examples
 _java.util -> jbx.JbxUtil_
 ```
 List<String> rainbow = list("red", "orange", "yellow", "indigo", "violet");
