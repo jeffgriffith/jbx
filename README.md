@@ -18,12 +18,12 @@ printf("This printed on %s without a newline.", "System.out");
 ```
 Concurrency
 ```
-go(() -> println("This ran in the common fork join pool.");
+go(() -> println("This ran in the common fork join pool."));
 
 sleep(1000);        // Returns whether interrupted
 ```
 Futures
 ```
-Future<String> f = future();
-Future<String> f = allOf(f1, f2, f3);
+CompletableFuture<String> f = future();
+CompletableFuture<String> f = joinFutures(f1, f2, f3);
 ```
