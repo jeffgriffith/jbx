@@ -2,7 +2,7 @@
 
 A library to improve Java readability by moving many common actions into static functions. For example:
 
-java.util (jbx.JbxUtil)
+jbx.JbxUtil - java.util
 ```
 List<String> rainbow = list("red", "orange", "yellow", "indigo", "violet");
 
