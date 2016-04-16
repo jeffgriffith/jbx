@@ -1,8 +1,8 @@
 package jbx;
 
-import static jbx.Collections.list;
-import static jbx.Collections.map;
-import static jbx.Collections.set;
+import static jbx.JbxCollections.list;
+import static jbx.JbxCollections.map;
+import static jbx.JbxCollections.set;
 import static org.junit.Assert.assertEquals;
 
 import java.util.List;

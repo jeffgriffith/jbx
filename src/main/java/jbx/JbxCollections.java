@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-public class Collections {
+public class JbxCollections {
 	
 	@SafeVarargs
 	public static <T> List<T> list(T... values) {

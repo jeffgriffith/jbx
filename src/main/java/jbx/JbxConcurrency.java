@@ -2,7 +2,7 @@ package jbx;
 
 import java.util.concurrent.ForkJoinPool;
 
-public class Concurrency {
+public class JbxConcurrency {
 
 	public static void go(Runnable task) {
 		ForkJoinPool.commonPool().submit(task);
