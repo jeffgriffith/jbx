@@ -25,5 +25,6 @@ sleep(1000);        // Returns whether interrupted
 Futures
 ```
 CompletableFuture<String> f = future();
+
 CompletableFuture<String> f = joinFutures(f1, f2, f3);
 ```
