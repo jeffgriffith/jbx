@@ -16,4 +16,5 @@ printf("This printed on %s without a newline.", "System.out");
 Concurrency
 ```
 go(() -> println("This ran in the common fork join pool.");
+sleep(1000);        // Returns whether interrupted
 ```
