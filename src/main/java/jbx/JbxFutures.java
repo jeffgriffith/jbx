@@ -10,7 +10,7 @@ public class JbxFutures {
     }
 	
 	// Nurkiewitz.com
-    public static <T> CompletableFuture<List<T>> allOf(List<CompletableFuture<T>> futures) {
+    public static <T> CompletableFuture<List<T>> joinFutures(List<CompletableFuture<T>> futures) {
         CompletableFuture<Void> allDoneFuture = CompletableFuture.allOf(
         		futures.toArray(new CompletableFuture[futures.size()]));
         
