@@ -1,12 +1,18 @@
 # jbx
 
-A library to improve Java readability by moving many common actions into static functions. As an example, rather than repeated references to ArrayList construction like:
+A library to improve Java readability by moving many common actions into static functions. For example:
+
 ```
-List<String> l = new ArrayList<>();
-List<String> l = Arrays.asList("a", "b", "c");
-```
-we can simply do:
-```
-List<String> l = list();
-List<String> l = list("a", "b", "c")
+Collections:
+List<String> rainbow = list("red", "orange", "yellow", "indigo", "violet");
+Set<String> names = set("Fred", "Bill", "Venkat");
+Map<String, Integer> ages = map("Fred", 45, "Bill", 35);
+
+IO:
+println("This prints on %s with a newline.", "System.out");
+printf("This printed on %s without a newline.", "System.out");
+
+Concurrency:
+go(() -> println("This ran in the common fork join pool.");
+
 ```
