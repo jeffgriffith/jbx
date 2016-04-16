@@ -1,4 +1,4 @@
-# jbx
+# jbx - Java Beautification Extensions
 ## Overview
 A library to improve Java readability by moving many common actions into static functions. They are named so that readability is preserved even when included statically.
 
