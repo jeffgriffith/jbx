@@ -22,3 +22,8 @@ go(() -> println("This ran in the common fork join pool.");
 
 sleep(1000);        // Returns whether interrupted
 ```
+Futures
+```
+Future<String> f = future();
+Future<String> f = allOf(f1, f2, f3);
+```
