@@ -8,8 +8,8 @@ public class TestJbxIO {
 
 	@Test
 	public void test() {
-		println("Println %s.", "test");
-		JbxIO.printf("Printlf ");
+		println("println %s.", "test");
+		JbxIO.printf("printf ");
 		JbxIO.printf("%s.\n", "test");
 	}
 }
